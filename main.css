@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 7;
+}
+
+header{
+    width: 200px; 
+    margin: 0 auto; 
+    margin-top:  120px; 
+    text-align: center; 
+    background: #fafafa;
+    border: 3px solid blueviolet;
+    border-radius: 15px; 
+    box-shadow: 0 2px 20px rgba(8, 0, 8, 0.3);
+
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url('img/branco.avif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+div {
+    padding-bottom: 10px; 
+    margin-bottom: 10px; 
+    position: relative;
+
+}
+
+.telefone {
+    margin-right: 10px;
+    padding-bottom: 20px
+    
+}
+
+.nome {
+    margin-right: 10px;
+    padding-bottom: 20px
+}
+
+.id {
+    margin-right: 10px;
+    padding-bottom: 20px
+    
+}
+
+div:nth-child((odd)) {
+    background-color: #000000;
+}
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+    background: white;
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 12px 12px 0  0;
+    overflow: hidden; 
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 8px 5px rgba(8, 0, 8, 0.3);
+}
+
+.titulo{
+    color: white;
+    background-color: blueviolet;
+}
